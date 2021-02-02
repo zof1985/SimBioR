@@ -1,0 +1,11 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("ggplot2", "ggplot", "aes", "theme_classic", "labs",
+                      "scale_colour_brewer", "geom_point", "geom_line",
+                      "geom_text", "geom_vline")
+importFrom("signal", "butter", "filtfilt")
+importFrom("magrittr", "%>%")
+importFrom("purrr", "map_dbl", "pmap_dfr", "map_dfr")
+importFrom("dplyr", "mutate", "filter")
+importFrom("Rdpack", "reprompt")
+importFrom("stats", "lm", "predict", "setNames")
+importFrom("utils", "combn")
